@@ -150,6 +150,8 @@ class PCAReducer():
 if __name__ == "__main__":
     # Argument parser
     for file in os.listdir("../data/"):
+        if file.split(".")[-1]!="mp4":
+            continue
         path_video=os.path.join("../data/",file)
         tf.keras.backend.clear_session()
         parser = argparse.ArgumentParser(

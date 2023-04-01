@@ -28,7 +28,7 @@ loose Average mAP on visible action ~ 44%
 
 # Extract Feature
 
-Place videos under ./data folder, under name of xxx.1.mp4 and xxx.2.mp4 for the first and second half of a game.
+Place [videos](https://pan.baidu.com/s/17X3DzbD1vQ7DIhPL1Tm_mQ?pwd=2455) under ./data folder, under name of xxx.1.mp4 and xxx.2.mp4 for the first and second half of a game.
 
 ```shell
 cd extraction
