@@ -16,6 +16,8 @@ pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 torchaudio==0.8.1 -f htt
 python download.py
 ```
 
+or from [baidunetdisk](https://pan.baidu.com/s/1Vdgd2veDxyGxENJYLedxug?pwd=cmka)
+
 ## Evaluation
 
 ```shell
@@ -39,7 +41,7 @@ At least 20G memory is needed, ~3min for a video.
 
 # Inference
 
-Extracts models under ./models
+Extracts [models](https://pan.baidu.com/s/1sIwYYO5coxVMQ_V_L0P_xg?pwd=rtza) under ./models
 
 ```shell
 python inference.py
