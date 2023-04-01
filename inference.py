@@ -58,7 +58,7 @@ if True:
             scoress = []
             for model in models:
                 model.eval()
-                result = model([video],thresh=0.1)
+                result = model([video],thresh=0.15)
                 seg = result[0]["segments"].cpu().long().numpy()
                 label = result[0]["labels"].cpu().numpy()
                 scores = result[0]["scores"].cpu().numpy()
@@ -77,7 +77,7 @@ if True:
             acceptable_idx = np.argsort(bins)[bins_sorted >= max(bins_sorted[int(19 * len(bins) / 20)], 1)]
             acceptable_idx=np.sort(acceptable_idx)
 
-            max_interval=2
+            max_interval=3
             counter=0
             while counter<len(acceptable_idx):
                 idx=acceptable_idx[counter]
