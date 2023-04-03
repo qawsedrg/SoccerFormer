@@ -58,4 +58,4 @@ Actions in xxx.1.mp4 and xxx.2.mp4 will be united in xxx.results_spotting.json
 
 # Acknowledgement
 
-This model is an adaptation of ActionFormer trained on SoccerNet.
+This model is an adaptation of [ActionFormer](https://github.com/happyharrycn/actionformer_release) trained on [SoccerNet](https://github.com/SoccerNet/sn-spotting).
